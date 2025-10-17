@@ -1,0 +1,98 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.override
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.parcel-cache/
+.cache/
+.turbo/
+.vercel/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# npm
+.npmrc
+
+# Misc
+*.tgz
+*.local
+*.log
+.cache/
+
+# Temporary files
+*.tmp
+~$*
+
+# Database files
+*.sqlite
+*.db
+
+# React/Next specifics (if present)
+.next/
+out/
+/.vercel
+
+# JetBrains
+.idea/
+
+# End of file
+
+/server/node_modules
+/server/.env
+
+
+/client/node_modules
+ 
+
+ # vercel
+.vercel
+
+# typescript
+/client/*.tsbuildinfo
+/client/next-env.d.ts
+/client/.env*
