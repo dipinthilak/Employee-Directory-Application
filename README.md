@@ -47,6 +47,7 @@ run `npm run seed`.
 
 
 
+
 ## Frontend (run the Nextjs app)
 
 1. Open a terminal window and go to the client folder:
